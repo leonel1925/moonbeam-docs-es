@@ -109,6 +109,7 @@ Now, execute the docker run command. Note that you have to:
     --in-peers 200 \
     --out-peers 200 \
     --pruning archive \
+    --state-cache-size 1 \
     -- \
     --pruning archive \
     --name="YOUR-NODE-NAME (Embedded Relay)"
@@ -130,6 +131,7 @@ Now, execute the docker run command. Note that you have to:
     --in-peers 200 \
     --out-peers 200 \
     --pruning archive \
+    --state-cache-size 1 \
     -- \
     --pruning archive \
     --name="YOUR-NODE-NAME (Embedded Relay)"
@@ -151,6 +153,7 @@ Now, execute the docker run command. Note that you have to:
     --in-peers 200 \
     --out-peers 200 \
     --pruning archive \
+    --state-cache-size 1 \
     -- \
     --pruning archive \
     --name="YOUR-NODE-NAME (Embedded Relay)"
@@ -173,6 +176,7 @@ Now, execute the docker run command. Note that you have to:
     --in-peers 200 \
     --out-peers 200 \
     --pruning archive \
+    --state-cache-size 1 \
     -- \
     --pruning archive \
     --name="YOUR-NODE-NAME (Embedded Relay)"
@@ -224,7 +228,7 @@ git checkout tags/$(git tag | tail -1)
 Next, install Substrate and all its prerequisites, including Rust, by executing:
 
 ```
---8<-- 'code/setting-up-local/substrate.md'
+--8<-- 'code/setting-up-node/substrate.md'
 ```
 
 Lastly, build parachain binary:
@@ -238,7 +242,7 @@ cargo build --release
 If a _cargo not found error_ shows up in the terminal, manually add Rust to your system path or restart your system:
 
 ```
---8<-- 'code/setting-up-local/cargoerror.md'
+--8<-- 'code/setting-up-node/cargoerror.md'
 ```
 
 ### Running the Systemd Service
@@ -299,6 +303,7 @@ The next step is to create the systemd configuration file. Note that you have to
          --rpc-port {{ networks.parachain.rpc }} \
          --ws-port {{ networks.parachain.ws }} \
          --pruning=archive \
+         --state-cache-size 1 \
          --unsafe-rpc-external \
          --unsafe-ws-external \
          --rpc-methods=Safe \
@@ -343,6 +348,7 @@ The next step is to create the systemd configuration file. Note that you have to
          --rpc-port {{ networks.parachain.rpc }} \
          --ws-port {{ networks.parachain.ws }} \
          --pruning=archive \
+         --state-cache-size 1 \
          --unsafe-rpc-external \
          --unsafe-ws-external \
          --rpc-methods=Safe \
@@ -391,6 +397,10 @@ journalctl -f -u moonbeam.service
 ```
 
 ![Service Logs](/images/fullnode/fullnode-binary3.png)
+
+## Advanced Flags and Options
+
+--8<-- 'text/setting-up-node/advanced-flags.md'
 
 ## Updating the Client
 
