@@ -1,66 +1,66 @@
 ---
-title: Code Snippets
+title: Fragmentos de Código
 description: In order to make it easier to get started with Moonbeam, here are code snippets for each of the tutorials we’ve created.
 ---
 
-# Code Snippets
+# Fragmentos de Código
 
-## Setting up a Local Moonbeam Node
+## Configuración de un Nodo Moonbeam Local
 
-**Clone moonbeam-tutorials repo:**
+**Clonar el repositorio de tutoriales de Moonbeam:**
 
 ```
 git clone -b {{ networks.development.build_tag }} https://github.com/PureStake/moonbeam
 cd moonbeam
 ```
 
-**Install substrate and its pre-requisites:**
+**Instalar Substrate y sus prerrequisitos:**
 
 ```
 --8<-- 'code/setting-up-node/substrate.md'
 ```
 
-**Add Rust to system path:**
+**Agregar Rust a la ruta del sistema:**
 
 ```
 --8<-- 'code/setting-up-node/cargoerror.md'
 ```
 
-**Build the development node:**
+**Construir el nodo de desarrollo:**
 
 ```
 --8<-- 'code/setting-up-node/build.md'
 ```
 
-**Run node in dev mode:**
+**Ejecutar el nodo en modo desarrollo:**
 
 ```
 --8<-- 'code/setting-up-node/runnode.md'
 ```
 
-**Purge chain, clean up any old data from running a ‘dev’ node in the past:**
+**Depurar la cadena, eliminar todo dato previo, si se ejecutó un nodo en modo desarrollo con anterioridad:**
 
 ```
 ./target/release/moonbeam-development purge-chain --dev
 ```
 
-**Run node in dev mode suppressing block information but prints errors in console:**
+**Ejecutar el nodo en modo desarrollo, suprimiendo la información del bloque, excepto los errores de impresión en la consola:**
 
 ```
 ./target/release/moonbeam-development --dev -lerror
 ```
 
-## Genesis Account
+## Cuenta Génesis
 
 --8<-- 'text/metamask-local/dev-account.md'
 
-## Development Accounts
+## Cuentas de Desarrollo
 
 --8<-- 'text/setting-up-node/dev-accounts.md'
 
 ## MetaMask
 
-**Moonbeam Development node details:**
+**Información del nodo de desarrollo de Moonbeam:**
 
 --8<-- 'text/metamask-local/development-node-details.md'
 
