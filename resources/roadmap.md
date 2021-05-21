@@ -1,15 +1,14 @@
 ---
-title: Roadmap
+title: Plan de Acción
 description: Moonbeam launched its first TestNet in September 2020, with a BetaNet on Kusama and MainNet on Polkadot to follow in early 2021.
 ---
 
-# Roadmap
+# Plan de Acción
 
-Moonbeam is still being actively developed. 
+Moonbeam aún está siendo desarrollado de manera activa. 
 
-On September 2020, we launched our [TestNet](/networks/overview/). Since then we have performed significants upgrades on almost a monthly basis. You can check the milestones achieved by each update in their corresponding [release notes](/networks/testnet/#release-notes).
+En septiembre del año 2020, lanzamos nuestro [TestNet](/networks/overview/). A partir de allí, casi todos los meses hemos realizado actualizaciones significativas. Los objetivos alcanzados gracias a cada actualización pueden verificarse mediante sus correspondientes [notas de lanzamiento](/networks/testnet/#release-notes).
 
+Más allá de lo anterior, el borrador del plan de acción incluye el lanzamiento de Moonriver, nuestra implementación Kusama, para fines del primer trimestre del año 2021 y de Moonbeam en la MainNet de Polkadot para el segundo trimestre del mismo año.
 
-The rough roadmap beyond that is to launch Moonriver, our Kusama deployment, by the end of Q1 2021, and Moonbeam on the Polkadot MainNet in Q2 2021.
-
-Our current focus is to make sure the Moonbeam EVM and Web3 compatibility features are feature-complete. A big part of this effort was completing the Web3 grant we received to implement a Web3-compatible RPC API. Details of the grant can be found [here](https://github.com/w3f/Open-Grants-Program/blob/master/applications/web3-compatible-api.md).  The work we did for this grant was completed and [approved in August 2020](https://www.purestake.com/news/purestake-awarded-web3-foundation-grant-moonbeam/).
+Nuestro enfoque actual se centra en garantizar que las funciones de compatibilidad de la gestión del valor ganado (EVM, por su sigla en inglés) de Moonbeam y de Web3 sean completas. En gran medida, este esfuerzo consistió en completar la subvención Web3 que recibimos para implementar una interfaz de programación de aplicaciones (API, por su sigla en inglés) de RPC compatible con Web3. Para más información acerca de la subvención, véase [aquí](https://github.com/w3f/Open-Grants-Program/blob/master/applications/web3-compatible-api.md). El trabajo realizado para esta subvención fue completado y [aprobado en agosto del año 2020](https://www.purestake.com/news/purestake-awarded-web3-foundation-grant-moonbeam/).
