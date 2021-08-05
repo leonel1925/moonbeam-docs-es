@@ -26,7 +26,7 @@ Moonriver is scheduled to follow a [5-phase launch process](https://moonbeam.net
 Some important variables/configurations to note include:
 
 === "General"
-    |       Variable        |                                    Value                                     |
+    |       Variable        |                                    Valor                                     |
     |:---------------------:|:----------------------------------------------------------------------------:|
     |   Minimum gas price   |                 {{ networks.moonriver.min_gas_price }} Gwei*                 |
     |   Target block time   |  {{ networks.moonriver.block_time }} seconds (expected to be 6     seconds)  |
