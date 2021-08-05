@@ -13,7 +13,7 @@ In June 2021, Moonriver first launched as a parachain on the Kusama network. Moo
 
 In order to collect as much feedback as possible and provide fast issue resolution, we have set up a [Discord with a dedicated Moonriver channel](https://discord.gg/5TaUvbRvgM).
 
-## Initial Configurations {: #initial-configurations } 
+## Configuraciones iniciales {: #initial-configurations } 
 
 Moonriver is scheduled to follow a [5-phase launch process](https://moonbeam.network/networks/moonriver/launch/). Currently, Moonriver is in Phase 3 of the launch process and has the following configurations:
 
