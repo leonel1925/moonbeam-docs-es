@@ -3,7 +3,7 @@ title: Overview
 description: An overview of the networks planned for Moonbeam, an Ethereum-compatible smart contract parachain on Polkadot.
 ---
 
-# Networks
+# Redes
 
 We plan to create multiple long-lived, Moonbeam-based networks. Significantly, Moonbeam will be deployed to Kusama in addition to Polkadot.
 
