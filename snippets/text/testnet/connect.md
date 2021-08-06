@@ -6,7 +6,7 @@ The Moonbase Alpha RPC and WSS endpoints hosted by PureStake are for development
 
 ### HTTPS DNS {: #https-dns } 
 
-To connect to Moonbase Alpha via HTTPS, simply point your provider to the following RPC DNS:
+Para conectarse a Moonbase Alpha a través de HTTPS, simplemente apunte a su proveedor al siguiente DNS de RPC:
 
 === "PureStake"
     ```
